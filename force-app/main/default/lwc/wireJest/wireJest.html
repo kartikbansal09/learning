@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <div>
+            <template if:true={contact.data}>
+                <template for:each={contact.data} for:item="con">
+                    <p key={con.id}>
+                        {con.Name}
+                    </p>
+                </template>
+
+            </template>
+        </div>
+    </lightning-card>
+</template>

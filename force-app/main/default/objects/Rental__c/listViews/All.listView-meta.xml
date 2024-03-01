@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Name__c</columns>
+    <columns>Account__c</columns>
+    <columns>Booking_Date__c</columns>
+    <columns>Vehicle__c</columns>
+    <columns>Departure_Date__c</columns>
+    <columns>Departure_Location__c</columns>
+    <columns>Departure_Location_Id__c</columns>
+    <columns>Rental_Status__c</columns>
+    <columns>Return_Date__c</columns>
+    <columns>Return_Location__c</columns>
+    <columns>External_Notes__c</columns>
+    <columns>Internal_Notes__c</columns>
+    <columns>Customer_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

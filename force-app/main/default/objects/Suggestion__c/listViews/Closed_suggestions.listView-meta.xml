@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_suggestions</fullName>
+    <columns>Suggestion_ID__c</columns>
+    <columns>NAME</columns>
+    <columns>Requestor__c</columns>
+    <columns>Implemented_Date__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Implemented,Rejected</value>
+    </filters>
+    <label>Closed suggestions</label>
+</ListView>

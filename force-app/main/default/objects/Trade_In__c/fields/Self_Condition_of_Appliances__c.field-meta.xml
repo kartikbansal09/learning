@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Self_Condition_of_Appliances__c</fullName>
+    <description>Customer self assessment of working conditions of appliances</description>
+    <externalId>false</externalId>
+    <label>Self - Condition of Appliances</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Good_Fair_Poor</valueSetName>
+    </valueSet>
+</CustomField>

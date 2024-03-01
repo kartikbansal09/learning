@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Location</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abbotsford Fraserway</fullName>
+                <default>true</default>
+                <label>Abbotsford Fraserway</label>
+            </value>
+            <value>
+                <fullName>Abbotsford Travelhome</fullName>
+                <default>false</default>
+                <label>Abbotsford Travelhome</label>
+            </value>
+            <value>
+                <fullName>Airdrie</fullName>
+                <default>false</default>
+                <label>Airdrie</label>
+            </value>
+            <value>
+                <fullName>Edmonton</fullName>
+                <default>false</default>
+                <label>Edmonton</label>
+            </value>
+            <value>
+                <fullName>Halifax</fullName>
+                <default>false</default>
+                <label>Halifax</label>
+            </value>
+            <value>
+                <fullName>Kamloops</fullName>
+                <default>false</default>
+                <label>Kamloops</label>
+            </value>
+            <value>
+                <fullName>Kelowna</fullName>
+                <default>false</default>
+                <label>Kelowna</label>
+            </value>
+            <value>
+                <fullName>Lacombe</fullName>
+                <default>false</default>
+                <label>Lacombe</label>
+            </value>
+            <value>
+                <fullName>Leduc</fullName>
+                <default>false</default>
+                <label>Leduc</label>
+            </value>
+            <value>
+                <fullName>Prince George</fullName>
+                <default>false</default>
+                <label>Prince George</label>
+            </value>
+            <value>
+                <fullName>Red Deer</fullName>
+                <default>false</default>
+                <label>Red Deer</label>
+            </value>
+            <value>
+                <fullName>Toronto</fullName>
+                <default>false</default>
+                <label>Toronto</label>
+            </value>
+            <value>
+                <fullName>Vancouver</fullName>
+                <default>false</default>
+                <label>Vancouver</label>
+            </value>
+            <value>
+                <fullName>Whitehorse</fullName>
+                <default>false</default>
+                <label>Whitehorse</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

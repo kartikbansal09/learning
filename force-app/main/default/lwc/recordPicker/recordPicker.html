@@ -1,0 +1,27 @@
+<template>
+    <lightning-card>
+    <lightning-record-picker
+    label="Accounts"
+    placeholder="Search Accounts..."
+    object-api-name="Contact"
+    onchange={handleAccountChange}
+        >
+</lightning-record-picker>
+
+<div> Record_ID = {id}</div>
+<div> Email = {email}</div>
+
+<lightning-record-picker
+label="Accounts"
+placeholder="Search Accounts..."
+object-api-name="Contact"
+onchange={handleChange}
+matching-info={matchingInfo}
+display-info={displayField}
+filter={filter}
+    >
+</lightning-record-picker>
+<div> Record_ID = {id2}</div>
+
+</lightning-card>
+</template>

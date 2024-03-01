@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_and_approved_suggestions</fullName>
+    <columns>NAME</columns>
+    <columns>Requestor__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Approved__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Approved__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Under Consideration,In Progress</value>
+    </filters>
+    <label>Open and approved suggestions</label>
+</ListView>
